@@ -5,6 +5,7 @@ public class Primes {
  
         boolean[] arr = new boolean[n];
 
+        System.out.println(arr.length);
 
         for (int i = 0; i < n; i++) {
             arr[i] = true;
@@ -27,7 +28,7 @@ public class Primes {
 
 
         int counter = 0;
-        System.out.println("Prime numbers up to "+ n+":");
+        System.out.println("Prime numbers up to "+ (n-1) +":");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i]) {
                 counter++;
