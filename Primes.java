@@ -36,9 +36,9 @@ public class Primes {
         }
 
 
-        int preCalc = (int) (((double)counter/n)*100);
+        int preCalc = (int) (((double)counter/(n-1))*100);
 
-        System.out.println("There are " + counter + " primes between 2 and "+ n+" "+"("+preCalc+"% are primes)");
+        System.out.println("There are " + counter + " primes between 2 and "+ (n-1) +" "+"("+preCalc+"% are primes)");
 
     }
 
